@@ -1,0 +1,38 @@
+#container{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+}
+
+#containerFr{
+    display: grid;  
+    grid-template-columns: 2fr 1fr 3fr;
+}
+
+#containerXO{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+    gap: 10px;
+}
+.myKids{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.a{
+    background: blueviolet;
+}
+
+.b{
+    background: #e2dc2b;
+}
+
+.c{
+    background: blueviolet;
+}
+
+.hold{
+    width: 80%;
+    margin: 0 auto;
+}

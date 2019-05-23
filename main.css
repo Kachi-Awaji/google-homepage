@@ -1,0 +1,73 @@
+/* CSS tasks 
+Make the mainScreen a Grid
+Fill with contents, and ensure the HTML is properly structured.
+
+Add Google logo
+Input form
+Two search buttons.
+
+spend time, practice, learn, it's about completing what you start. :) you can make it bro. *)
+
+- begin with content.
+
+
+
+
+
+
+*/
+
+body{
+    display:grid;
+    grid-template-rows: 8fr 1fr 1fr;
+    font-family: 'Questrial', sans-serif;
+}
+
+main{
+    display: grid;
+    grid-template-rows: 1fr 9fr;
+}
+
+header{
+    text-align: right;
+}
+
+header ul li{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.imgDiv{
+    line-height:25px;
+}
+
+.notif{
+    vertical-align: middle;
+}
+.blueDiv{
+    background: #4343ce;
+    color: white;
+    font-size: 14px;
+    padding: 3px;
+    border-radius: 50% 50%;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    line-height: 22px;
+}
+
+main section{
+    text-align:center;
+}
+.google-logo{
+    width: 300px; 
+}
+
+.query{
+    width: 40%;
+    height: 40px;
+    border-radius: 40px;
+    border: solid 1px #dbdbdb;
+    padding: 10px 20px;
+}
