@@ -16,10 +16,14 @@ spend time, practice, learn, it's about completing what you start. :) you can ma
 
 
 */
-
+html{
+    max-height: 100vh;
+    height: 100vh;
+}
 body{
     display:grid;
-    grid-template-rows: 8fr 1fr 1fr;
+    height: 100%;
+    grid-template-rows: 90% 5% 5%;
     font-family: 'Questrial', sans-serif;
 }
 
@@ -30,6 +34,7 @@ main{
 
 header{
     text-align: right;
+    padding: 0 20px;
 }
 
 header ul li{
@@ -44,24 +49,26 @@ header ul li{
 
 .notif{
     vertical-align: middle;
+    width: 20px;
 }
 .blueDiv{
     background: #4343ce;
     color: white;
-    font-size: 14px;
+    font-size: 18px;
     padding: 3px;
     border-radius: 50% 50%;
-    width: 22px;
-    height: 22px;
+    width: 26px;
+    height: 26px;
     text-align: center;
-    line-height: 22px;
+    line-height: 26px;
 }
 
 main section{
     text-align:center;
 }
 .google-logo{
-    width: 300px; 
+    margin-top: 60px;
+    width: 322px; 
 }
 
 .query{
@@ -70,4 +77,40 @@ main section{
     border-radius: 40px;
     border: solid 1px #dbdbdb;
     padding: 10px 20px;
+}
+
+.btn{
+    height: 36px;
+    line-height: 27px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+.links{
+    color: #4343ce;
+}
+
+footer ul li{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+footer{
+    background: #e5e5e5;
+    color: #6f6f6f;
+}
+
+#bottomFooter{
+    display: flex;
+    flex-direction: row;
 }
