@@ -62,21 +62,38 @@ header ul li{
     text-align: center;
     line-height: 26px;
 }
-
 main section{
     text-align:center;
 }
 .google-logo{
     margin-top: 60px;
-    width: 322px; 
+    width: 322px;
 }
 
 .query{
-    width: 40%;
-    height: 40px;
-    border-radius: 40px;
+    width: 35%;
+    height: 32px;
+    border-radius: 32px;
     border: solid 1px #dbdbdb;
-    padding: 10px 20px;
+    padding: 5px 20px;
+}
+
+.query:focus{
+    border-color: #e6e8ea;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(207, 216, 224, 0.7);
+    outline: 0 none;
+}
+
+.query{
+    background-image: url("../images/mic.png"); /* The image used */
+    background-position: 97% center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: 22px; 
+}
+
+form{
+    margin-bottom: 22px;
+    margin-top: -37px;
 }
 
 .btn{
@@ -106,11 +123,26 @@ footer ul li{
 }
 
 footer{
-    background: #e5e5e5;
+    background: #f2f2f2;
     color: #6f6f6f;
+    padding: 0px 5px 0px 5px;
 }
 
 #bottomFooter{
     display: flex;
     flex-direction: row;
+    border-top: solid 1px  #d6d3d3;
+}
+
+#left{
+    flex : 1;
+}
+#right{
+    flex : 1;
+    text-align: right;
+}
+
+footer ul{
+    line-height: 5px;
+    padding-right: 20px;
 }
